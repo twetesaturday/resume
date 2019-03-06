@@ -1,10 +1,12 @@
 {% if site.speakerdeck %}
 	<div id="introBubble" class="rounded_panel txt_lightgrey">
+		<div class="top-rounded-panel grey-bg">
+			<h1 id="user-intro">Speaking Engagement</h1>
+		</div>
 		<div class="content-rounded-panel">
 			{% for talk in site.speakerdeck.talks %}
 				<h5>{{talk.title}} ({{talk.conference}})</h5>
-				<script async class="speakerdeck-embed" data-id="{{talk.speakerdeckId}}" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
-				<br/><br/>
+				<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ5-PnVicOmNYYzSSRIw-SpLiYmh3VTybKVOaPmkMGnNh345aA6d7A7ddwdgj5CTRmTnYDVw3dPjCud/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 			{% endfor %}
 
 		</div>
