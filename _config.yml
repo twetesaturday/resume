@@ -43,7 +43,7 @@ skills:
  
 #Work experience is required
 roles:
- - title: Application Development Analyst
+ - title: Application <br/>Development Analyst
    start: 2017
    end: ongoing
    employer: Accenture
@@ -53,7 +53,7 @@ roles:
    end: 2017
    employer: Gameloft
    description: Spearheaded code revamp projects, introduced new functions, and assisted fellow developers in implementation of a new tech infrastructure.
- - title: Software Development Engineer
+ - title: Software <br/> Development Engineer
    start: 2014
    end: 2016
    employer: Allied Telesis Labs, Inc.
